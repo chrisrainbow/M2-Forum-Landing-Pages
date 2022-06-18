@@ -1,0 +1,37 @@
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Page Not Found</title>
+  </head>
+  <body>
+      <script>
+          function redirect (url) {
+              var ua        = navigator.userAgent.toLowerCase(),
+                  isIE      = ua.indexOf('msie') !== -1,
+                  version   = parseInt(ua.substr(4, 2), 10);
+          
+              if (isIE && version < 9) {
+                  const link = document.createElement('a');
+                  link.href = url;
+                  document.body.appendChild(link);
+                  link.click();
+              }
+          
+              
+              else { 
+                  window.location.href = url; 
+              }
+          }
+          redirect("https://www.massengines.com/404-error");
+          </script>
+  </body>
+  </html>
+  
+  
+  
+  
+  
+  

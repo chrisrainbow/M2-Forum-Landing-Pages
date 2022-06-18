@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>M² Registration Lead Quality - MASS Engines</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://www.massengines.com/wp-content/uploads/cropped-favicon-1-32x32.png" sizes="32x32" />
+	<link rel="icon" href="https://www.massengines.com/wp-content/uploads/cropped-favicon-1-192x192.png"
+		sizes="192x192" />
+	<link rel="apple-touch-icon" href="https://www.massengines.com/wp-content/uploads/cropped-favicon-1-180x180.png" />
+	<meta name="msapplication-TileImage"
+		content="https://www.massengines.com/wp-content/uploads/cropped-favicon-1-270x270.png" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/7425c6ced8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<style>
+		.hero-img-settings {
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: scroll;
+			background-size: cover;
+		}
+
+		.hero-img-1 {
+			background-image: url(https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2Fsignals_banner.png?alt=media&token=7c357a14-bb82-494a-8790-24933e78b2c4);
+		}
+
+		.hero-img-2 {
+			background-image: url(https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2Fbackground_banner.jpg?alt=media&token=f1704b3f-1f6a-4a9d-9501-abd2dfd52e18);
+		}
+
+		.massBlue {
+			background-color: #1b3359;
+		}
+
+		.hero-img-3 {
+			background-image: url(https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FRegister-now-banner.jpeg?alt=media&token=d2c9acf7-72b7-4835-a551-324b30eb3bf0);
+		}
+
+		.form-check-input:checked {
+			background-color: #d82232;
+			border-color: #d82232;
+		}
+
+		.chevron1 {
+			background-image: url(https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2Fchevron_2.png?alt=media&token=7b35de43-91c2-4698-8af8-94e5b3a9c993);
+			background-size: 100% !important;
+		}
+
+		.chevron2 {
+			background-image: url(https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2Fchevron_1.png?alt=media&token=84d517d8-8e73-4175-b2f1-d1ab3a899463);
+			background-size: 100% !important;
+		}
+
+		.chevron3 {
+			background-image: url(https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2Fdark_blue_right.png?alt=media&token=135ce5b8-685e-4f31-9a0b-9c45287c6997);
+			background-size: 100% !important;
+		}
+
+		.chevron4 {
+			background-image: url(https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2Flong_arrow_right.png?alt=media&token=b133401b-8c3e-4552-a668-94fc43332c0c);
+			background-size: 100% !important;
+		}
+
+		#speakers {
+			text-align: center;
+		}
+
+		@media only screen and (min-width: 1000px) {
+			.border-section {
+				border-right: 1px solid #dee2e6 !important;
+			}
+
+			#speakers {
+				text-align: left;
+			}
+		}
+
+		.fade-in-image {
+			animation: fadeIn 1s;
+			-webkit-animation: fadeIn 1s;
+			-moz-animation: fadeIn 1s;
+			-o-animation: fadeIn 1s;
+			-ms-animation: fadeIn 1s;
+		}
+
+		@keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@-moz-keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@-webkit-keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@-o-keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@-ms-keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		.extendheight {
+			margin-top: 8em !important;
+		}
+
+		@media (max-width: 1200px) {
+			.lgdevicesonly {
+				display: none !important;
+			}
+
+			.normheight {
+				padding: 1em 10px 3em 10px !important;
+			}
+
+			.extendheight {
+				margin-top: 0px !important;
+			}
+		}
+
+		@media only screen and (max-width: 700px) {
+			.attend-btn {
+				left: 11.5% !important;
+			}
+		}
+
+		@media only screen and (max-width: 400px) {
+			.RVSP-btn {
+				left: 24% !important;
+			}
+
+			.attend-btn {
+				left: 4.5% !important;
+				width: 260px !important;
+			}
+		}
+
+		/* Small devices (landscape phones, 576px and up) */
+
+		@media (min-width: 100px) {
+			.desktop-only {
+				display: none;
+			}
+		}
+
+		/* Medium devices (tablets, 768px and up) */
+
+		@media (min-width: 768px) {}
+
+		/* Large devices (desktops, 992px and up) */
+
+		@media (min-width: 992px) {
+			.desktop-only {
+				display: block;
+			}
+
+			.mobile-only {
+				display: none;
+			}
+		}
+
+		/* X-Large devices (large desktops, 1200px and up) */
+
+		@media (min-width: 1200px) {}
+
+		/* XX-Large devices (larger desktops, 1400px and up) */
+
+		@media (min-width: 1400px) {}
+
+
+		#RVSP:hover,
+		#attendbtn:hover {
+			background-color: white !important;
+			color: #d82232;
+		}
+
+		#arrow1, #arrow2, #arrow3, #arrow4{ --animate-delay: 0.4s}
+		.highlightBlock:hover {
+			background-color: #e1e1e1;
+		}
+
+
+       ol.custlist {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+ol li.custlist {
+  counter-increment: my-awesome-counter;
+}
+ol li.custlist::before {
+  content: counter(my-awesome-counter) ". ";
+  color: #243a5f;
+  font-weight: bold;
+}
+
+	</style>
+</head>
+
+<body>
+  <script type="text/javascript"> _linkedin_partner_id = "4210753"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="text/javascript"> (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=4210753&fmt=gif" /> </noscript>
+	<!-- Hero section -->
+	<div class="container-fluid" style="background-color:#1b3359;max-height:70px;">
+		<nav class="navbar ">
+			<div style="background-color:#1b3359;padding:0px 2px 15px 15px" class="mx-auto">
+				<a class="navbar-brand mx-auto"> <img
+						src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FM2-Logo-Options_White.png?alt=media&token=aab122ef-75fd-487a-acad-59191b35b7c3"
+						width="100" alt="M2 Event Logo" class=""> </a>
+			</div>
+		</nav>
+	</div>
+	<div class="px-4 py-5  text-center hero-img-settings hero-img-1 h-100" style="min-height:500px">
+		<!-- hero body -->
+		<div class="col-lg-6 mx-auto animateSection fadeInUp" id="hero"
+			style="border: 2px solid #d82232;margin-top:15vh;max-width:800px;max-height:440px;padding:20px 0px 70px 0px;margin-bottom: 100px;">
+			<div style="max-width:470px;max-height:300px; margin: 0 auto;padding: 0 20px;">
+				<h1 class="display-1 fw-bold text-light" style="margin-bottom:0px;line-height:1;">SIGNALS</h1>
+				<h3 class="display-9 fw-bold text-light" style="margin-top:10px">IN LEAD SCORING</h3>
+				
+				<hr class="bg-red" style="border:1px solid #d82232;opacity: 100;">
+				<p class="lead  text-light" style="line-height:1.3;margin-bottom:-20px;padding-bottom:10px">
+					JUNE 7, 2022 &nbsp;|&nbsp; 11 AM ET &nbsp;|&nbsp; LIVE FORUM </p>
+				<div class="d-grid gap-2 d-sm-flex justify-content-sm-center" style="position:relative;margin-top:0px">
+					<button type="button" id="RVSP" class="btn btn-primary btn-sm px-4 gap-1 bg-danger RVSP-btn"
+						style="border-color:#d82232;position:absolute;top:49px;border-radius:0px;left: 31%;width: 150px;font-size: 18px;height:45px"
+						onClick="document.getElementById('formSuccess').scrollIntoView();">RSVP</button>
+				</div>
+			</div>
+		</div>
+		<!--End of hero body-->
+	</div>
+	<!-- End hero section-->
+	<div class="container-fluid">
+		<div class="row massBlue " style="">
+			<div class="col-xl-5 col-lg-12 col-md-12 mh-100 h-100"
+				style="background-color:#FFF;padding-top:5em;padding-bottom:3em;min-height:544px">
+				<div style="max-width:700px; margin: 0 auto;padding:10px">
+					<h1 class="display-8 fw-bold lh-1 mb-3 animateSection fadeInLeft" id="aboutblock1" style="color:#243a5f;font-weight:800">ABOUT THE EVENT
+					</h1>
+					<p class="">Lead scoring is the language of sales and marketing alignment.  But too often sales and marketing can’t agree on the criteria that determine a good lead.  </p>
+					<p class="">The signals we use can either simplify or complicate how sales and marketing communicate.  So how do you get it right? </p>
+					<p class="">Join us at the M² live forum on <strong>June 7, 2022</strong> to discuss how to:</p>
+                    <ol class="custlist">
+                        <li class="custlist">Analyze your data to separate the good leads from the bad</li>
+                        <li class="custlist">Identify common lead scoring signals to simplify communication between sales and marketing</li>
+                        <li class="custlist">Go beyond set up to make lead scoring work over the long term</li>
+                            
+                    </ol>
+
+				
+					<p class="">Plus, get your own lead scoring questions answered live!</p>
+					
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-12 col-md-12 d-inline-block lgdevicesonly "
+				style="background: linear-gradient(90deg, #FFF 57.5%, #1b3359 42.5%);align-items: stretch;">
+				<div> <img
+						src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FHead-Speech-Graphic.png?alt=media&token=97fdcc97-39f7-4855-9aea-103d9685d5bd"
+						class="animateSection fadeInUp d-block mx-auto img-fluid"
+						alt="head with a speech bubble diagram" loading="lazy"
+						style="align-items: center;justify-content: center;margin: 150px 0px 0px 0px; z-index:2"
+						id="aboutusimage"> </div>
+			</div>
+			<div class="col-xl-5 col-lg-12 col-md-12 text-light" style="align-items: center;
+               justify-content: center ">
+				<div style="max-width:700px; margin: 0 auto;padding:10px" class="normheight extendheight">
+					<h4 class="display-7 fw-bold lh-1 mb-3 my-5">Here’s what you’ll get from this free, live forum discussion:
+					</h4>
+					<div class="d-flex"> <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FCheckmark.png?alt=media&token=f68fca71-a2e5-4251-b421-b4b9da91bd7c"
+							alt="Check mark icon" class="flex-shrink-0 me-3  rounded-circle" style="width:30px;height:30px;">
+						<div>
+							<p class="" style="padding-top: 2px;"><strong>Discuss</strong> lead scoring challenges live with industry experts </p>
+						</div>
+					</div>
+					<div class="d-flex "> <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FCheckmark.png?alt=media&token=f68fca71-a2e5-4251-b421-b4b9da91bd7c"
+							alt="Check mark icon" class="flex-shrink-0 me-3 rounded-circle" style="width:30px;height:30px;">
+						<div>
+							<p class="" style="padding-top: 2px;"><strong>Access a proven dashboard</strong> to improve your approach to lead scoring </p>
+						</div>
+					</div>
+					<div class="d-flex "> <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FCheckmark.png?alt=media&token=f68fca71-a2e5-4251-b421-b4b9da91bd7c"
+							alt="Check mark icon" class="flex-shrink-0 me-3  rounded-circle" style="width:30px;height:30px;">
+						<div>
+							<p class="" style="padding-top: 2px;"><strong>Hear best practices</strong> on how to simplify your lead scoring while driving results</p>
+						</div>
+					</div>
+					<div class="d-flex "> <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FCheckmark.png?alt=media&token=f68fca71-a2e5-4251-b421-b4b9da91bd7c"
+							alt="Check mark icon" class="flex-shrink-0 me-3  rounded-circle" style="width:30px;height:30px;">
+						<div>
+							<p class="" style="padding-top: 2px;"><strong></strong>Make new, genuine connections</strong> with high performing marketing professionals</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Hero spacer https://stackoverflow.com/questions/61427133/adding-subscribers-to-a-list-using-mailchimps-api-->
+	<div class="px-4 py-5  hero-img-settings hero-img-2" id="formSuccess">
+		<div class="container" style="padding-top:100px;padding-bottom:130px;max-width:1000px;">
+			<div class="alert alert-success" role="alert" id="success"
+				style="display:none;max-width: 900px;margin: 0 auto;padding: 25px;"> <i
+					class="far fa-check-circle alert-success"
+					style="font-size: 4em;text-align: center;display: block;margin-bottom: 17px;margin-top: 16px;"></i>
+				<p class="lead">Thanks for registering for M²! Your form was successfully submitted.</p>
+				<p class="lead">Look out for a confirmation email in your inbox to add the event to your calendar.</p>
+			</div>
+			<form method="post" name="mc-embedded-subscribe-form"  id="mc-embedded-subscribe-form form341"
+				class="elq-form" enctype="multipart/form-data"  action="https://massengines.us13.list-manage.com/subscribe/post?u=82a2893073cf2a17d1b867d0d&amp;id=8d9f3a6c70" method="post" >
+				<input value="openForumRegister" type="hidden" name="elqFormName">
+				<input value="1059719268" type="hidden" name="elqSiteId">
+				<input name="elqCampaignId" type="hidden">
+				<h1 class="display-6 fw-bold lh-1  mb-5 my-5 text-light">REGISTER NOW!</h1>
+				<div class="row g-4">
+					<div class="col-lg-6 col-sm-12">
+						
+						<input type="text" class="form-control" required placeholder="First name" name="FNAME"
+                        aria-label="First name" id="mce-FNAME">
+					</div>
+					<div class="col-lg-6 col-sm-12">
+						<input type="text" class="form-control" required placeholder="Email" name="EMAIL"
+							aria-label="Email" id="mce-EMAIL">
+					</div>
+                    <div class="col-lg-12 col-sm-12">
+						<textarea rows="1" class="form-control" placeholder="How did you hear about us? (Optional)" name="COMMENTS"
+							aria-label="COMMENTS" id="mce-COMMENTS" ></textarea>
+					</div>
+					<div class="col-lg-12" style="margin-top:30px;margin-bottom:10px">
+						<input type="checkbox" name="opt-in" id="fe2557" class="form-check-input"
+							style="margin-top: 4px;">
+						<label class="checkbox-aligned elq-item-label" for="fe2557" style="display:inline;">
+							<p class="text-light" style="display:inline;">&nbsp;I want to receive news and insights on
+								creating revenue marketing engines.</p>
+						</label>
+                        <input type="hidden" name="tags" value="6543339">
+					</div>
+				</div>
+				<input type="Submit" class="btn text-light" style="background-color:#d82232;border-color:#d82232;padding: 8px 25px;margin-top:20px;border-radius:0px;width: 200px;
+                  font-size: 18px;
+                  height: 45px;" value="SAVE MY SEAT!" id="fe2558">
+			</form>
+		</div>
+	</div>
+	<div class="container my-4 mx-auto" style="max-width:1000px;padding-top: 3em;padding-bottom: 3em;">
+		<div class="row">
+			<div class="col-lg-12 mx-auto" style="max-width:945px">
+				<h3 class="display-6 fw-bold lh-1  mb-5 my-5" style="color:#243a5f;" id="speakers">SPEAKERS</h3>
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12"> <img
+					src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2FNadia_headshot.png?alt=media&token=298edfca-488e-4bf0-8a1f-6c2a5739a3a5"
+					class="d-block mx-auto  img-fluid" alt="Nadia profile picture" loading="lazy" width="250">
+				<div class="my-4">
+					<p class="text-center" style="color:#243a5f;"><span
+							style="font-weight:bolder;font-size: 1.2em;">Nadia Milani</span>
+						<br>VP Marketing | Proposify
+
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12"> <img
+					src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2FJody_headshot.png?alt=media&token=915988ce-97b0-4861-a804-c766d610e603"
+					class="d-block mx-auto  img-fluid" alt="Jody profile picture" loading="lazy" width="250">
+				<div class="my-4"></div>
+				<p class="text-center" style="color:#243a5f;"><span
+						style="color:#243a5f;font-weight:bolder;font-size: 1.2em;">Jody Johnson</span>
+					<br>CEO | ProspectHunter
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12"> <img
+					src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2FZee_headshot.png?alt=media&token=608cb6dc-5e40-4aad-a71b-dd8970ddc5e4"
+					class="d-block img-fluid mx-auto " alt="Zee profile picture" loading="lazy" width="250">
+				<div class="my-4">
+					<p class="text-center" style="color:#243a5f;"><span
+							style="color:#243a5f;font-weight:bolder;font-size: 1.2em;">Zee Jeremic</span>
+						<br>CEO | Mass Engines
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="background-color:#f1f2f2;padding-top:50px">
+		<div class="container px-4 py-5" style="" id="howItWorks">
+			<div class="row justify-content-center align-items-center" style="">
+				<div class="col-lg-9">
+					<h2 class="pb-2 display-6 fw-bold lh-1  " style="color:#243a5f;font-weight:800">HOW IT WORKS</h2>
+					<h4 class="display-7 lh-1 mb-3"><span style="color:#1a84c5;">Engagement</span> and <span
+							style="color:#1a84c5;">Collaboration</span> are core values.</h4>
+				</div>
+			</div>
+			<div class="row g-3  py-5 row-cols-1 px-4 row-cols-lg-4 justify-content-center align-items-center"
+				style="padding-bottom:0px!important">
+				<div class="mobile-only text-center feature col-lg-12">
+					<div style="margin: 20px 0px;padding:5px" class="hero-img-settings chevron3 text-light">
+						<h6 style="margin-bottom:0px;">PRE-FORUM</h6>
+					</div>
+				</div>
+				<div class="feature col-lg-3 col-sm-12 border-section highlightBlock" style="max-width:250px; padding:15px 20px 0px 20px;">
+					<div class="feature-icon" > <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2Fexpertise_icon.png?alt=media&token=61986b4f-cc2c-4851-ae79-20ce237c8064"
+							class="d-block img-fluid mx-auto " alt="Circle network" width="100" loading="lazy"> </div>
+					<div class="text-center " >
+						<h6 style="margin: 20px 0px;padding:5px;" id="arrow1" class="animate__delay-2s animateSection fadeInLeft hero-img-settings chevron1 text-light">Ask
+						</h6>
+						<p style="font-size:1em;"><a href="https://forms.gle/nLTSAErmn61sLZsr5" target="_blank" style="color: #1081c4;font-weight:bold">Submit questions</a> to be answered live during the forum. </p>
+					</div>
+					<div class="border-end"></div>
+				</div>
+				<div class="feature col-lg-3 col-sm-12 border-section highlightBlock" style="max-width:250px;padding:15px 20px 0px 20px;">
+					<div class="feature-icon "> <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2Ftraining.icon.png?alt=media&token=5b0609e9-7b5c-45fc-90d5-80e1bf735aaf"
+							class="d-block img-fluid mx-auto " alt="Engage icon" width="100" loading="lazy"> </div>
+					<div class="text-center" >
+						<h6 style="margin: 20px 0px;padding:5px;" id="arrow2" class="animate__delay-3s animateSection fadeInLeft hero-img-settings chevron1 text-light">Engage
+						</h6>
+						<p style="font-size:1em;">Live Q&A between guest speakers and attendees over chat and on mic. </p>
+					</div>
+				</div>
+				<div class="mobile-only text-center feature col-lg-12">
+					<div style="margin: 20px 0px;padding:5px" class="hero-img-settings chevron4 text-light">
+						<h6 style="margin-bottom:0px;">DURING FORUM</h6>
+					</div>
+				</div>
+				<div class=" feature col-lg-3 col-sm-12 border-section highlightBlock" style="max-width:250px;padding-top:15px;">
+					<div class="feature-icon "> <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2FAdvance_icon.png?alt=media&token=9d6e9890-e0d0-45a0-a4ca-88de395f152e"
+							class="d-block img-fluid mx-auto " alt="Act icon" width="100" loading="lazy"> </div>
+					<div class="text-center" >
+						<h6 style="margin: 20px 0px;padding:5px" id="arrow3" class="animate__delay-4s	animateSection fadeInLeft hero-img-settings chevron2 text-light">Act
+						</h6>
+						<p style="font-size:1em">Use the tools and checklists to drive change in your organization.</p>
+					</div>
+				</div>
+				<div class="feature col-lg-3 col-sm-12 highlightBlock" style="max-width:250px;padding:15px 15px 0px 15px; ">
+					<div class="feature-icon "> <img
+							src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Signals%2FAwesometeam_icon.png?alt=media&token=ccecc3d2-8714-4f08-97f5-24fbc75d9c40"
+							class="d-block img-fluid mx-auto " alt="Connect icon" width="100" loading="lazy"> </div>
+					<div class="text-center" >
+						<h6 style="margin: 20px 0px;padding:5px;" id="arrow4" class="animate__delay-5s animateSection fadeInLeft hero-img-settings chevron2 text-light">Connect</h6>
+						<p style="font-size:1em">Keep the conversation going in the marketing masterminds <a href="https://www.linkedin.com/groups/9152002/" target="_blank" style="color: #1081c4;font-weight:bold;">LinkedIn community.</a> </p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row g-3 justify-content-center align-items-center mx-auto"
+				style="max-width:1000px;margin-top:20px;margin-bottom:20px;">
+                <div class="col-lg-3 col-sm-12 text-center desktop-only" style="padding: 0px;">
+					<div style="margin: 20px 10px;padding:5px" class="hero-img-settings chevron3 text-light">
+						<h6 style="margin-bottom:0px;">PRE-FORUM</h6>
+					</div>
+				</div>
+                <div class="col-lg-3 col-sm-12 text-center desktop-only" style="padding: 0px;">
+					<div style="margin: 20px 10px;padding:5px" class="hero-img-settings chevron3 text-light">
+						<h6 style="margin-bottom:0px;">DURING FORUM</h6>
+					</div>
+				</div>
+				
+				<div class="col-lg-6 col-sm-12 text-center desktop-only" style="padding: 0px;">
+					<div style="margin: 20px 10px;padding:5px" class="hero-img-settings chevron4 text-light">
+						<h6 style="margin-bottom:0px;">POST FORUM</h6>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<!-- Real talk -->
+	<div style="background-color:#d82232">
+		<div class="container col-xxl-11 px-4 py-5"
+			style="padding-top: 3em;padding-bottom: 3em;" id="aboutevent">
+			<div class="row  align-items-center g-5 py-5 justify-content-center align-items-center" style="height:100%">
+				<div class="col-lg-7 col-sm-12">
+					<h4 class="display-10  lh-1 mb-3 text-light">ABOUT M²</h4>
+					<h1 class="pb-2 display-6 fw-bold lh-1  text-light">REAL TALK FOR REAL RESULTS</h1>
+					<div style="max-width:670px">
+						<p class="text-light">M² is a collective exchange happening in real-time among a community of high performing marketing professionals. It’s a forum where your voice and problems are heard, discussed with industry professionals, and a space to make new, genuine connections and access reputable tools and takeaways you can’t get anywhere else.</p>
+						<p class="text-light">Live forums are hosted by MASS Engines. Our goal is to open up channels for honest, frank conversations about the topics marketers are tackling alone.
+                        </p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-sm-12"> <img
+						src="https://firebasestorage.googleapis.com/v0/b/mass-engines.appspot.com/o/M2%20Lead%20Quality%20Registration%2FCircle-Network.png?alt=media&token=90c1417c-9740-4f6f-9ba7-aa869d8442fc"
+						class="d-block mx-auto img-fluid" alt="Circle network" width="450" loading="lazy" style="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- register now section -->
+	<div class="px-4 py-5  text-center hero-img-settings hero-img-3 h-100" style="height:100% " id="register-now">
+		<div class="col-lg-7 mx-auto "
+			style="border: 2px solid #d82232;margin-top:8vh;max-width:1200px;max-height:800px;padding:20px 0px 50px 0px;margin-bottom: 150px;">
+			<div style="max-width:600px;max-height:400px; margin: 30px auto;padding:0 20px;">
+				<h3 class="display-6 fw-bold text-light" style="margin-top:0px">Ready to understand the lead scoring signals?
+
+				</h3>
+				<hr class="bg-red" style="border:1px solid #d82232;opacity: 100;margin-top:30px;margin-bottom:30px">
+				<p class="lead  text-light" style="line-height:1.3;margin-bottom:-20px;padding-bottom:0px">Join the conversation on June 7, 2022. </p>
+				<div class="d-grid gap-2 d-sm-flex justify-content-sm-center" style="position:relative;margin-top:0px">
+					<button id="attendbtn" type="button" class="btn btn-primary btn-sm px-4 gap-1 bg-danger attend-btn"
+						style="border-color:#d82232;position:absolute;top:57px;border-radius:0px;left:21%;width:300px;
+                     font-size: 18px;
+                     height: 45px;" onClick="document.getElementById('formSuccess').scrollIntoView();">YES, I WANT TO
+						ATTEND</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="background:#f1f2f2">
+		<div class="container">
+			<div class="row">
+				<div class="col" style="margin: 20px auto;"> © 2022 Mass Engines, All rights reserved. </div>
+			</div>
+		</div>
+	</div>
+	<script>
+		const success = document.getElementById("form341")
+		console.log(success)
+		const successMsg = document.getElementById("success")
+		success.addEventListener('submit', e => {
+			successMsg.style.display = "block"
+			successMsg.classList.add("fade-in-image");
+			success.style.display = "none"
+			console.log("form submission successful")
+			document.getElementById("formSuccess").scrollIntoView();
+		})
+	</script>
+	<script>
+		const testForm = document.getElementById('form341');
+		testForm.onsubmit = function (event) {
+			event.preventDefault();
+			const request = new XMLHttpRequest();
+			request.open('POST', "https://s1059719268.t.eloqua.com/e/f2", false);
+			const formData = new FormData(document.getElementById('form341'));
+			request.send(formData);
+		}
+	</script>
+	<script>
+		const animateCSS = (element, animation, prefix = 'animate__') => new Promise((resolve, reject) => {
+			const animationName = `${prefix}${animation}`;
+			const node = document.querySelector(element);
+			node.classList.add(`${prefix}animated`, animationName);
+
+			function handleAnimationEnd(event) {
+				event.stopPropagation();
+				//prevent recurrence 
+				//node.classList.remove(`${prefix}animated`, animationName);
+				resolve('Animation ended');
+			}
+			node.addEventListener('animationend', handleAnimationEnd, {
+				once: true
+			});
+		});
+		const animatedBlocks = document.querySelectorAll(".animateSection")
+		const animatedBlocksarray = Array.from(animatedBlocks)
+		const options = {
+			threshold: 0.5,
+			rootMargin: "50px"
+		};
+		const observer = new IntersectionObserver(function (entries, observer) {
+			entries.forEach(entry => {
+				let animationStyle = "";
+				let blockID = "#" + entry.target.id;
+				const animationlist = ["backInDown", "backInLeft", "backInRight", , "backInUp", "Back exits", "backOutDown", "backOutLeft", "backOutRight", "backOutUp", "Bouncing entrances", "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp", "Bouncing exits", "bounceOut", "bounceOutDown", "bounceOutLeft", "bounceOutRight", "bounceOutUp", "Fading entrances", "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "fadeInTopLeft", "fadeInTopRight", "fadeInBottomLeft", "fadeInBottomRight", "Fading exits", "fadeOut", "fadeOutDown", "fadeOutDownBig", "fadeOutLeft", "fadeOutLeftBig", "fadeOutRight", "fadeOutRightBig", "fadeOutUp", "fadeOutUpBig", "fadeOutTopLeft", "fadeOutTopRight", "fadeOutBottomRight", "fadeOutBottomLeft", "swing", "slideInDown", "slideInLeft", "slideInRight", "slideInUp", "lightSpeedInLeft"];
+				if (entry.isIntersecting) {
+					animationlist.forEach(item => {
+						if (entry.target.classList.contains(item)) {
+							animationStyle = item;
+						};
+					});
+					try {
+						console.log("animation style is " + animationStyle)
+						animateCSS(blockID, animationStyle);
+					} catch (e) {
+						console.log("There was an error:", blockID, animationStyle);
+					};
+				};
+			});
+		}, options);
+		animatedBlocksarray.forEach(animatedBlock => {
+			observer.observe(animatedBlock);
+		});
+	</script>
+</body>
+
+</html>
